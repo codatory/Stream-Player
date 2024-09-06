@@ -29,7 +29,7 @@ android {
             signingConfig = signingConfigs.getByName("debug")
         }
         getByName("debug") {
-            applicationIdSuffix = "debug"
+            applicationIdSuffix = ".debug"
         }
     }
     compileOptions {
